@@ -51,7 +51,12 @@ section {
 }
 
 #hero {
-    background: black;
+    background-image: url('https://images.unsplash.com/photo-1460722665083-c2599113f7e0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fd835aa067c6314d8c9fcf79136d42a1');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
     color: white;
 }
 
