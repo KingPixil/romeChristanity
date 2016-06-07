@@ -66,20 +66,20 @@ section {
     font-family: 'Varela Round';
 }
 
-#s1 {
-    background-image: url('https://images.unsplash.com/photo-1431352905070-2ec849b49349?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3751cd5830d67908f3014016979197c4');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: black;
-    color: white;
+#s1, #s2, #s3 {
+    background-color: white;
+    color: black;
 }
 
 section p {
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 5vh;
+}
+
+p::first-letter {
+    margin-left: 5%;
 }
 
 .center {
