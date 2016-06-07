@@ -250,7 +250,7 @@ Question.prototype.render = function(container) {
 // "Main method" which will create all the objects and render the Quiz.
 $(document).ready(function() {
   // Create an instance of the Quiz object
-  var quiz = new Quiz('Ulysses Quiz');
+  var quiz = new Quiz('Quiz');
 
   // Create Question objects from all_questions and add them to the Quiz object
   for (var i = 0; i < all_questions.length; i++) {
