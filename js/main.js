@@ -21,7 +21,7 @@ var all_questions = [{
   question_string: "How was Jesus killed?",
   choices: {
     correct: "Crusifixion",
-    wrong: ["Stabbed", "Stoned", "Torchered"]
+    wrong: ["Stabbed", "Stoned", "Tortured"]
   }
 },{
   question_string: "What city was Jesus born in?",
