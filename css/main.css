@@ -47,7 +47,9 @@ body {
 section {
     min-height: 100vh;
     width: 100vw;
-    text-align: center;
+    text-align:center;
+
+  display: table;
 }
 
 #hero {
